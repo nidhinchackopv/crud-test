@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render the About page 1`] = `
+<form
+  className="px-4 rounded mx-auto pt-10 pb-10 shadow-md border-solid rounded-xl max-w-3xl w-full my-32 inputs space-y-6 bg-gray-200"
+  data-testid="pro-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="flex space-x-4"
+  >
+    <div
+      className="w-1/2 flex "
+    >
+      <label
+        className="pr-2 pt-2 text-center"
+      >
+        Title
+      </label>
+      <input
+        className="ml-12 border border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+        data-testid="pro-input"
+        defaultValue=""
+        name="Title"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="flex"
+  >
+    <label
+      className="pr-2"
+    >
+      Description
+    </label>
+    <textarea
+      className="border border-gray-400 px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+      data-testid="pro-textarea"
+      defaultValue=""
+      name="body"
+      onChange={[Function]}
+    />
+  </div>
+  <button
+    className="shadow-md border-solid rounded-xl border-4 border-gray-200 bg-purple-500 p-2"
+    data-testid="submit"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;

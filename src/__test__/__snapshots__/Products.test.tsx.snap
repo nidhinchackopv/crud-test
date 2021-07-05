@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render the About page 1`] = `
+<div>
+  <div
+    className="shadow-lg bg-purple-200 pt-10 pb-20"
+  >
+    <a
+      className="shadow-md border-solid rounded-xl border-4 border-green-200 bg-purple-500 p-2"
+      data-test-id="pro"
+      href="/products/create"
+    >
+      Add Information
+    </a>
+    <h1
+      className=" pt-10 align-center w-100 h-20 font-sans font-medium antialiased text-2xl"
+    >
+      All the information
+    </h1>
+    <div
+      className="pt-5 w-full"
+    >
+      <table
+        className=" ml-2 mr-2 pt-5 w-full border-separate border border-green-800"
+        data-testid="table"
+      >
+        <thead>
+          <tr
+            className=""
+          >
+            <th
+              className=""
+            >
+              #id
+            </th>
+            <th
+              className=""
+            >
+              Title
+            </th>
+            <th
+              className=""
+            >
+              Body
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          data-testid="tbody"
+        />
+      </table>
+    </div>
+  </div>
+</div>
+`;
